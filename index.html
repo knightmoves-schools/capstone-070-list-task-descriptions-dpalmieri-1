@@ -2,10 +2,69 @@
 <html>
     <head>
         <title>Task App</title>
+        <style>
+            span {
+                display:inline-block;
+            }
+            input {
+                display:block;
+                margin: 0 auto;
+                text-align:center;
+                font-size:x-large;
+            }
+
+
+
+            .task-1{
+                border:rgb(220,0,0);
+                border-style:groove;
+                border-radius: 50px;
+                padding:10px;
+                background:red;
+                width:30%;
+                font-size:25px;
+                color:black;
+                text-align:center;
+            }
+            .task-2{
+                border:rgb(225,225,0);
+                border-style:groove;
+                font-size:25px;
+                border-radius:50px;
+                padding:10px;
+                width:30%;
+                background:yellow;
+                Color:black;
+                text-align:center;
+            }
+            .task-3{
+                border:rgb(0,98,0);
+                border-style:groove;
+                font-size:25px;
+                border-radius:50px;
+                padding:10px;
+                width:30%;
+                background:green;
+                Color:black;
+                text-align:center;
+            }
+        </style>
     </head>
     <body>
         <div id="tasks">
-            
+            <div>
+                <input type="text" placeholder="What Tasks Are You Looking For?"></input>
+            </div>
+            <div>
+                <button></button>
+            </div>
+
+            <br>
+            <br>
+
+            <span id="task-description-1" class="task-1">Todos</span>
+            <span id="task-description-2" class="task-2">Doing</span>
+            <span id="task-description-3" class="task-3">Done</span>
         </div>
     </body>
 </html>
